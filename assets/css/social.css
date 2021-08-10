@@ -1,0 +1,24 @@
+.social-icons a {
+  font-size: 1.3rem;
+  transition: all 0.2s;
+}
+
+.social-icons a:hover {
+  transform: scale(1.25);
+}
+
+.bi-facebook {
+  color: #3b5998;
+}
+
+.bi-twitter {
+  color: #00acee;
+}
+
+.bi-instagram {
+  color: #f57500;
+}
+
+.bi-github {
+  color: #1a1e22;
+}
