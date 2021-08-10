@@ -1,3 +1,13 @@
+.landing {
+  margin-left: -15%;
+  z-index: -20;
+}
+.landing lottie-player {
+  width: 120%;
+  height: auto;
+  /* margin-left: -100px; */
+}
+
 .social-icons a {
   font-size: 1.3rem;
   transition: all 0.2s;
@@ -21,4 +31,16 @@
 
 .bi-github {
   color: #1a1e22;
+}
+
+@media (max-width: 767px) {
+  .landing {
+    margin-left: unset;
+    z-index: -20;
+  }
+  .landing lottie-player {
+    width: 100%;
+    height: auto;
+    /* margin-left: -100px; */
+  }
 }
